@@ -1,0 +1,201 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.marquee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border: 5px inset rgba(255, 255, 0, 0.744);
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.754);
+    width: 100%;
+    height: 100%;
+}
+
+.tenshop {
+    color: #000;
+    font-size: 60px;
+}
+
+.khauhieu {
+    background-color: rgb(255, 253, 182);
+    width: 100%;
+    height: 20px;
+    font-size: 25px;
+    padding: 10px 10px 20px 10px;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0022ff;
+    padding: 10px 0;
+    position: relative;
+    gap: 20px;
+}
+
+.menu-nav ul li {
+    margin: 0 30px;
+    position: relative;
+
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.menu-dienthoai {
+    position: relative;
+}
+
+.menu1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-dienthoai:hover .menu1 {
+    display: block;
+}
+
+.menu-lienhe {
+    position: relative;
+}
+
+.menu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-lienhe:hover .menu2 {
+    display: block;
+}
+
+.menu-tienich {
+    position: relative;
+}
+
+.menu3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-tienich:hover .menu3 {
+    display: block;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.tieude {
+    color: #000000;
+    background-color: #0080ff;
+}
+
+.tieude i {
+    color: red;
+}
+
+.tieude2 {
+    color: red;
+    background-color: #0080ff;
+}
+
+.tieude2 i {
+    color: yellow;
+}
+
+.tieude3 {
+    color: rgb(0, 0, 0);
+    background-color: #0080ff;
+}
+
+.tieude3 i {
+    color: yellow;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+.product .price-old {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.product .price-new {
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.product button {
+    background-color: #d7feff;
+    color: rgb(0, 217, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #d7feff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0022ff;
+    color: white;
+    margin-top: 20px;
+}
